@@ -1,0 +1,6 @@
+name = PayZang Payment Processor
+description = "PayZang Payment Processor."
+dependencies[] = civicrm
+package = CiviCRM
+core = 7.x
+version = 4.2

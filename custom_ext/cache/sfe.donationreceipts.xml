@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<extension key="sfe.donationreceipts" type="module">
+  <file>donationreceipts</file>
+  <name>Spendenbescheinigungen (German donation receipts)</name>
+  <description>Komfortables Erstellen von Einzel- und Sammelbescheinigungen f&#xFC;r steuerlich absetzbare Zuwendungen.</description>
+  <urls>
+    <url desc="Documentation">http://sfe-ev.org/extensions/donationreceipts</url>
+    <url desc="Support">http://sfe-ev.org/mailinglist</url>
+  </urls>
+  <license>GNU AGPL v3 or later</license>
+  <maintainer>
+    <author>Software f&#xFC;r Engagierte e.V.</author>
+    <email>info@sfe-ev.org</email>
+  </maintainer>
+  <releaseDate>2013-02-15</releaseDate>
+  <version>1.1.4</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments/>
+  <civix>
+    <namespace>CRM/Donationreceipts</namespace>
+  </civix>
+<downloadUrl>http://sfe-ev.org/sites/default/files/donationreceipts-1.1.4.zip</downloadUrl></extension>

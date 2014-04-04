@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension key="nz.co.fuzion.omngateway" type="payment">
+  <downloadUrl>https://github.com/eileenmcnaughton/nz.co.fuzion.omngateway/archive/master.zip</downloadUrl>
+  <file>Omngateway</file>
+  <name>nz.co.fuzion.omngateway</name>
+  <description>OmnGateway</description>
+  <urls>
+    <url desc="Main Extension Page"/>
+    <url desc="Documentation"/>
+    <url desc="Support"/>
+    <url desc="Licensing"/>
+  </urls>
+  <license>AGPL</license>
+  <maintainer>
+    <author>Eileen McNaughton</author>
+    <email>eileen@fuzion.co.nz</email>
+  </maintainer>
+  <releaseDate>2012-08-09</releaseDate>
+  <version>1.1</version>
+  <develStage>stable</develStage>
+  <compatibility>
+  <ver>4.0</ver>
+  <ver>4.1</ver>
+  <ver>4.2</ver>
+  </compatibility>
+  <comments/>
+  <typeInfo>
+    <userNameLabel>username</userNameLabel>
+    <passwordLabel>password</passwordLabel>
+    <signatureLabel/>
+    <subjectLabel/>
+    <urlSiteDefault>https://omngateway.net/authorize</urlSiteDefault>
+    <urlApiDefault/>
+    <urlRecurDefault/>
+    <urlSiteTestDefault>https://omngateway.net/authorize</urlSiteTestDefault>
+    <urlApiTestDefault>/</urlApiTestDefault>
+    <urlRecurTestDefault/>
+    <urlButtonDefault/>
+    <urlButtonTestDefault/>
+    <billingMode>form</billingMode>
+    <isRecur>0</isRecur>
+    <paymentType>1</paymentType>
+  </typeInfo>
+</extension>

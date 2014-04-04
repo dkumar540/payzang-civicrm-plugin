@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension key="nz.co.fuzion.paystation" type="payment">
+  <file>Paystation</file>
+  <name>Paystation</name>
+  <description>Paystation Payment Processor</description>
+  <urls>
+    <url desc="Main Extension Page"/>
+    <url desc="Documentation"/>
+    <url desc="Support"/>
+    <url desc="Licensing"/>
+  </urls>
+  <license>AGPL</license>
+  <maintainer>
+    <author>Elliot Pahl - Catalyst IT Limited, ported by Eileen McNaughton</author>
+    <email>eileen@fuzion.co.nz</email>
+  </maintainer>
+  <releaseDate>2013-03-13</releaseDate>
+  <version>2.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+    <ver>4.3</ver>
+  </compatibility>
+  <comments/>
+  <typeInfo>
+    <userNameLabel>Paystation ID</userNameLabel>
+    <passwordLabel>Gateway ID</passwordLabel>
+    <signatureLabel/>
+    <subjectLabel/>
+    <urlSiteDefault>https://www.paystation.co.nz/direct/paystation.dll%27</urlSiteDefault>
+    <urlApiDefault>https://www.paystation.co.nz/lookup/quick/%27</urlApiDefault>
+    <urlRecurDefault/>
+    <urlSiteTestDefault>https://www.paystation.co.nz/direct/paystation.dll%27</urlSiteTestDefault>
+    <urlApiTestDefault>https://www.paystation.co.nz/lookup/quick/%27</urlApiTestDefault>
+    <urlRecurTestDefault/>
+    <urlButtonDefault/>
+    <urlButtonTestDefault/>
+    <billingMode>notify</billingMode>
+    <isRecur>0</isRecur>
+    <paymentType>1</paymentType>
+  </typeInfo>
+<downloadUrl>https://github.com/eileenmcnaughton/nz.co.fuzion.paystation/archive/master.zip</downloadUrl></extension>

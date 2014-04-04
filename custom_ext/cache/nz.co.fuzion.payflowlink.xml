@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension key="nz.co.fuzion.payflowlink" type="payment">
+  <downloadUrl>http://civicrm.org/delme/nz.co.fuzion.paystation.zip</downloadUrl>
+  <file>Paystation</file>
+  <name>Paystation</name>
+  <description>Paystation Payment Processor</description>
+  <urls>
+    <url desc="Main Extension Page"/>
+    <url desc="Documentation"/>
+    <url desc="Support"/>
+    <url desc="Licensing"/>
+  </urls>
+  <license>AGPL</license>
+  <maintainer>
+    <author>Elliot Pahl and Eileen McNaughton</author>
+    <email>eileen@fuzion.co.nz</email>
+  </maintainer>
+  <releaseDate>2012-08-01</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+		<ver>4.0</ver>
+		<ver>4.1</ver>
+		<ver>4.2</ver>
+	</compatibility>
+  <comments>Originally written by Elliot Pahl of Catalyst IT NZ for internet NZ. Packaged by Eileen McNaughton</comments>
+  <typeInfo>
+    <userNameLabel>Paystation ID</userNameLabel>
+    <passwordLabel>Gateway ID</passwordLabel>
+    <signatureLabel/>
+    <subjectLabel/>
+    <urlSiteDefault>https://www.paystation.co.nz/direct/paystation.dll</urlSiteDefault>
+    <urlApiDefault>https://www.paystation.co.nz/lookup/quick/</urlApiDefault>
+    <urlRecurDefault/>
+    <urlSiteTestDefault>https://www.paystation.co.nz/direct/paystation.dll</urlSiteTestDefault>
+    <urlApiTestDefault>https://www.paystation.co.nz/lookup/quick/</urlApiTestDefault>
+    <urlRecurTestDefault/>
+    <urlButtonDefault/>
+    <urlButtonTestDefault/>
+    <billingMode>notify</billingMode>
+    <isRecur>0</isRecur>
+    <paymentType>1</paymentType>
+  </typeInfo>
+</extension>

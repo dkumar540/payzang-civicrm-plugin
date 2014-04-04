@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension key="com.payzang.payment.pzpayments" type="payment">
+    <file>PZPayments</file>
+    <name>PayZangPayments</name>
+    <description>PayZang Payment Processor</description>
+    <urls>
+        <url desc="Main Extension Page"></url>
+        <url desc="Documentation"></url>
+        <url desc="Support"></url>
+        <url desc="Licensing"></url>
+    </urls>
+    <license>AGPL</license>
+    <maintainer>
+        <author>Dharmendra Kumar</author>
+        <email>kumar@payzang.com</email>
+    </maintainer>
+    <releaseDate>2013-04-24</releaseDate>
+    <version>1.0</version>
+    <develStage>stable</develStage>
+    <compatibility><ver>4.2.9</ver></compatibility>
+    <comments></comments>
+    <typeInfo>
+        <userNameLabel>Merchant ID</userNameLabel>
+        <passwordLabel>Password</passwordLabel>
+        <signatureLabel></signatureLabel>
+        <subjectLabel></subjectLabel>
+        <urlSiteDefault></urlSiteDefault>
+        <urlApiDefault>https://www.paymentsgateway.net/cgi-bin/posttest.pl</urlApiDefault>
+        <urlRecurDefault></urlRecurDefault>
+        <urlSiteTestDefault></urlSiteTestDefault>
+        <urlApiTestDefault>https://www.paymentsgateway.net/cgi-bin/posttest.pl</urlApiTestDefault>
+        <urlRecurTestDefault></urlRecurTestDefault>
+        <urlButtonDefault></urlButtonDefault>
+        <urlButtonTestDefault></urlButtonTestDefault>
+        <billingMode>form</billingMode>
+        <isRecur>1</isRecur>
+        <paymentType>1</paymentType>
+    </typeInfo>
+</extension>
